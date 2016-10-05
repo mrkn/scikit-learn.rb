@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'scikit/learn/version'
+require 'sklearn/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "scikit-learn"
-  spec.version       = Scikit::Learn::VERSION
+  spec.version       = Sklearn::VERSION
   spec.authors       = ["Kenta Murata"]
   spec.email         = ["mrkn@mrkn.jp"]
 
